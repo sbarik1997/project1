@@ -17,6 +17,9 @@ class Students{
   }
 }
 
+
+//future project of class monitor
+
 let student1 = new Students("Ashis Das",11,1,17);
 console.log(student1);
   
@@ -28,3 +31,4 @@ class Monitor extends Students{
 }
 
 let monitor = new Monitor("Ashis Das",11,1,1);
+
