@@ -17,7 +17,18 @@ class Students{
   }
 }
 
+
+//future project of class monitor
+
 let student1 = new Students("Ashis Das",11,1,17);
 console.log(student1);
   
-//future project of class monitor
+class Monitor extends Students{
+   constructor(name,Class,roll_no,monitor_id){
+     super(name,Class,Roll_no);
+     this.monitor_id = monitor_id;
+   }
+}
+
+let monitor = new Monitor("Ashis Das",11,1,1);
+
